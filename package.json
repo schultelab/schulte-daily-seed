@@ -1,0 +1,23 @@
+{
+  "name": "schulte-daily-seed",
+  "version": "1.0.0",
+  "description": "The deterministic seed algorithm behind SchulteLab's daily challenge — one UTC date → one identical Schulte grid worldwide. Zero dependencies, browser & Node 18+.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test test/vectors.test.js"
+  },
+  "keywords": [
+    "schulte",
+    "schulte-table",
+    "daily-challenge",
+    "seeded-random",
+    "mulberry32",
+    "deterministic",
+    "wordle-like"
+  ],
+  "license": "MIT"
+}
